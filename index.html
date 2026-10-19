@@ -536,6 +536,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
     <button class="m-tab"        data-target="shakes"    role="tab">Shakes</button>
     <button class="m-tab"        data-target="smoothies" role="tab">Smoothies</button>
     <button class="m-tab"        data-target="cold"      role="tab">Cold Drinks</button>
+    <button class="m-tab"        data-target="food"      role="tab">Food</button>
     <button class="m-tab"        data-target="addons"    role="tab">Add-ons</button>
   </div>
 </nav>
@@ -555,6 +556,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
       <div class="nav-link"        data-target="shakes"    role="button" tabindex="0">Shakes         <span class="nav-pip" aria-hidden="true"></span></div>
       <div class="nav-link"        data-target="smoothies" role="button" tabindex="0">Smoothies      <span class="nav-pip" aria-hidden="true"></span></div>
       <div class="nav-link"        data-target="cold"      role="button" tabindex="0">Cold Drinks    <span class="nav-pip" aria-hidden="true"></span></div>
+      <div class="nav-link"        data-target="food"      role="button" tabindex="0">Food           <span class="nav-pip" aria-hidden="true"></span></div>
       <div class="nav-link"        data-target="addons"    role="button" tabindex="0">Add-ons        <span class="nav-pip" aria-hidden="true"></span></div>
     </nav>
   </aside>
@@ -571,27 +573,29 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
         <span class="cat-sub">Espresso &amp; classics, served warm</span>
       </div>
       <div class="items-grid">
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Espresso</h3><span class="item-price">$3</span></div><p class="item-desc">A concentrated, bold single shot of pure espresso.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Dopio</h3><span class="item-price">$5</span></div><p class="item-desc">Double espresso — twice the depth and intensity.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Caffè Latte</h3><span class="item-price">$6.5</span></div><p class="item-desc">Espresso with velvety, steamed whole milk.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Americano</h3><span class="item-price">$5</span></div><p class="item-desc">Espresso lengthened with hot water.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Cappuccino</h3><span class="item-price">$6.5</span></div><p class="item-desc">Equal thirds of espresso, steamed milk, and silky foam.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Nescafé</h3><span class="item-price">$5</span></div><p class="item-desc">Classic instant coffee — smooth and familiar.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Nescafé Decaf</h3><span class="item-price">$5.5</span></div><p class="item-desc">All the flavour, none of the caffeine.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Espresso Decaf</h3><span class="item-price">$3.5</span></div><p class="item-desc">Decaffeinated single espresso shot.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Double Decaf</h3><span class="item-price">$6</span></div><p class="item-desc">Double decaffeinated espresso.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Macchiato</h3><span class="item-price">$5</span></div><p class="item-desc">Espresso marked with a touch of steamed milk.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Spanish Latte</h3><span class="item-price">$7.5</span></div><p class="item-desc">Espresso sweetened with rich condensed milk.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Mocha</h3><span class="item-price">$7</span></div><p class="item-desc">Espresso with rich chocolate and steamed milk.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">White Mocha</h3><span class="item-price">$7</span></div><p class="item-desc">Espresso with white chocolate and steamed milk.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Matcha</h3><span class="item-price">$7.5</span></div><p class="item-desc">Premium Japanese ceremonial grade green tea.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Espresso</h3><span class="item-price">$2.2</span></div><p class="item-desc">A concentrated, bold single shot of pure espresso.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Lebanese Coffee</h3><span class="item-price">$2</span></div><p class="item-desc">Traditional Lebanese coffee.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Lebanese Coffee Rakwa (for 2)</h3><span class="item-price">$4</span></div><p class="item-desc">Lebanese coffee served in a rakwa, for two.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Dopio</h3><span class="item-price">$3.5</span></div><p class="item-desc">Double espresso — twice the depth and intensity.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Caffè Latte</h3><span class="item-price">$5</span></div><p class="item-desc">Espresso with velvety, steamed whole milk.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Americano</h3><span class="item-price">$4</span></div><p class="item-desc">Espresso lengthened with hot water.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Cappuccino</h3><span class="item-price">$5</span></div><p class="item-desc">Equal thirds of espresso, steamed milk, and silky foam.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Nescafé</h3><span class="item-price">$4</span></div><p class="item-desc">Classic instant coffee — smooth and familiar.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Nescafé Decaf</h3><span class="item-price">$4.25</span></div><p class="item-desc">All the flavour, none of the caffeine.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Espresso Decaf</h3><span class="item-price">$3</span></div><p class="item-desc">Decaffeinated single espresso shot.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Double Decaf</h3><span class="item-price">$5</span></div><p class="item-desc">Double decaffeinated espresso.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Macchiato</h3><span class="item-price">$4</span></div><p class="item-desc">Espresso marked with a touch of steamed milk.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Spanish Latte</h3><span class="item-price">$5.5</span></div><p class="item-desc">Espresso sweetened with rich condensed milk.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Mocha</h3><span class="item-price">$5.5</span></div><p class="item-desc">Espresso with rich chocolate and steamed milk.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">White Mocha</h3><span class="item-price">$6</span></div><p class="item-desc">Espresso with white chocolate and steamed milk.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Matcha</h3><span class="item-price">$5.5</span></div><p class="item-desc">Premium Japanese ceremonial grade green tea.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Tea</h3><span class="item-price">$3</span></div><p class="item-desc">Freshly brewed selection of fine teas.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Café Blanc</h3><span class="item-price">$4.5</span></div><p class="item-desc">Lebanese-style white coffee with orange blossom water.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Hot Chocolate</h3><span class="item-price">$7</span></div><p class="item-desc">Rich, creamy chocolate — deeply comforting.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Hot Toffee</h3><span class="item-price">$7.5</span></div><p class="item-desc">Warm toffee latte with velvety steamed milk.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Cookies &amp; Cream</h3><span class="item-price">$7.5</span></div><p class="item-desc">Indulgent Oreo-inspired hot drink.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Café Blanc</h3><span class="item-price">$4</span></div><p class="item-desc">Lebanese-style white coffee with orange blossom water.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Hot Chocolate</h3><span class="item-price">$5.5</span></div><p class="item-desc">Rich, creamy chocolate — deeply comforting.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Hot Toffee</h3><span class="item-price">$6</span></div><p class="item-desc">Warm toffee latte with velvety steamed milk.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Cookies &amp; Cream</h3><span class="item-price">$6</span></div><p class="item-desc">Indulgent Oreo-inspired hot drink.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Caramel Brûlée</h3><span class="item-price">$7.5</span></div><p class="item-desc">Espresso with caramel and a burnt sugar finish.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Sahlab</h3><span class="item-price">$7.5</span></div><p class="item-desc">Traditional warm orchid-flour milk drink.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Sahlab</h3><span class="item-price">$6</span></div><p class="item-desc">Traditional warm orchid-flour milk drink.</p></article>
       </div>
     </section>
 
@@ -604,15 +608,15 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
         <span class="cat-sub">Cold, bold, and refreshing</span>
       </div>
       <div class="items-grid">
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Americano</h3><span class="item-price">$6</span></div><p class="item-desc">Espresso shots poured over ice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Latte</h3><span class="item-price">$6.5</span></div><p class="item-desc">Espresso and cold milk layered over ice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Spanish</h3><span class="item-price">$7.5</span></div><p class="item-desc">Condensed milk and espresso, chilled over ice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Matcha</h3><span class="item-price">$8</span></div><p class="item-desc">Cold-prepared ceremonial matcha over ice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Mocha</h3><span class="item-price">$7</span></div><p class="item-desc">Chocolate espresso, served cold.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Americano</h3><span class="item-price">$5</span></div><p class="item-desc">Espresso shots poured over ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Latte</h3><span class="item-price">$5</span></div><p class="item-desc">Espresso and cold milk layered over ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Spanish</h3><span class="item-price">$5.5</span></div><p class="item-desc">Condensed milk and espresso, chilled over ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Matcha</h3><span class="item-price">$6.5</span></div><p class="item-desc">Cold-prepared ceremonial matcha over ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Mocha</h3><span class="item-price">$5</span></div><p class="item-desc">Chocolate espresso, served cold.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Iced White Mocha</h3><span class="item-price">$7</span></div><p class="item-desc">White chocolate espresso, served cold.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Toffee</h3><span class="item-price">$7.5</span></div><p class="item-desc">Toffee latte chilled and poured over ice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Salted Caramel</h3><span class="item-price">$7</span></div><p class="item-desc">Sweet and salty caramel espresso, iced.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Caramel Macchiato</h3><span class="item-price">$8</span></div><p class="item-desc">Layered caramel, milk, and espresso over ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Toffee</h3><span class="item-price">$6</span></div><p class="item-desc">Toffee latte chilled and poured over ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Salted Caramel</h3><span class="item-price">$6</span></div><p class="item-desc">Sweet and salty caramel espresso, iced.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Caramel Macchiato</h3><span class="item-price">$6.5</span></div><p class="item-desc">Layered caramel, milk, and espresso over ice.</p></article>
       </div>
     </section>
 
@@ -625,11 +629,11 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
         <span class="cat-sub">Blended, iced, indulgent</span>
       </div>
       <div class="items-grid">
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Espresso Frappé</h3><span class="item-price">$6</span></div><p class="item-desc">Classic blended espresso and ice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Mocha Frappé</h3><span class="item-price">$7.5</span></div><p class="item-desc">Blended chocolate espresso frappé.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">White Mocha Frappé</h3><span class="item-price">$7.5</span></div><p class="item-desc">White chocolate blended frappé.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Caramel Frappé</h3><span class="item-price">$7.5</span></div><p class="item-desc">Blended caramel and espresso, cream-topped.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Matcha Frappé</h3><span class="item-price">$7.5</span></div><p class="item-desc">Ceremonial matcha blended with ice and milk.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Espresso Frappé</h3><span class="item-price">$5</span></div><p class="item-desc">Classic blended espresso and ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Mocha Frappé</h3><span class="item-price">$5.5</span></div><p class="item-desc">Blended chocolate espresso frappé.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">White Mocha Frappé</h3><span class="item-price">$6</span></div><p class="item-desc">White chocolate blended frappé.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Caramel Frappé</h3><span class="item-price">$6</span></div><p class="item-desc">Blended caramel and espresso, cream-topped.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Matcha Frappé</h3><span class="item-price">$6.5</span></div><p class="item-desc">Ceremonial matcha blended with ice and milk.</p></article>
       </div>
     </section>
 
@@ -642,14 +646,16 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
         <span class="cat-sub">Thick, creamy, and made to satisfy</span>
       </div>
       <div class="items-grid">
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Chocolate</h3><span class="item-price">$7.5</span></div><p class="item-desc">Rich, creamy chocolate shake.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry</h3><span class="item-price">$7.5</span></div><p class="item-desc">Fresh strawberry blended shake.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Vanilla</h3><span class="item-price">$7.5</span></div><p class="item-desc">Smooth, classic vanilla shake.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Caramel</h3><span class="item-price">$7.5</span></div><p class="item-desc">Sweet and smooth caramel shake.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Cookies &amp; Cream</h3><span class="item-price">$7.5</span></div><p class="item-desc">Blended Oreo cookie shake.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Chocolate</h3><span class="item-price">$6</span></div><p class="item-desc">Rich, creamy chocolate shake.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry</h3><span class="item-price">$6</span></div><p class="item-desc">Fresh strawberry blended shake.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Vanilla</h3><span class="item-price">$5</span></div><p class="item-desc">Smooth, classic vanilla shake.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Caramel</h3><span class="item-price">$6</span></div><p class="item-desc">Sweet and smooth caramel shake.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Cookies &amp; Cream</h3><span class="item-price">$6</span></div><p class="item-desc">Blended Oreo cookie shake.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry Cheesecake</h3><span class="item-price">$7.5</span></div><p class="item-desc">Strawberry cheesecake in a glass.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Blueberry Cheesecake</h3><span class="item-price">$7.5</span></div><p class="item-desc">Blueberry cheesecake shake.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Raspberry Cheesecake</h3><span class="item-price">$7.5</span></div><p class="item-desc">Tangy raspberry cheesecake shake.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry Banana Protein</h3><span class="item-price">$6</span></div><p class="item-desc">Strawberry banana protein shake.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Chocolate Protein</h3><span class="item-price">$6</span></div><p class="item-desc">Chocolate protein shake.</p></article>
         <article class="item-card">
   <div class="item-top">
     <h3 class="item-name">Strawberry Banana Protein</h3>
@@ -678,10 +684,10 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
         <span class="cat-sub">Real fruit, blended fresh daily</span>
       </div>
       <div class="items-grid">
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry</h3><span class="item-price">$7.5</span></div><p class="item-desc">Fresh strawberry smoothie.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Peach</h3><span class="item-price">$7.5</span></div><p class="item-desc">Sweet and velvety peach smoothie.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Mango</h3><span class="item-price">$7.5</span></div><p class="item-desc">Tropical mango smoothie.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Passion Fruit</h3><span class="item-price">$7.5</span></div><p class="item-desc">Exotic and tangy passion fruit blend.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry</h3><span class="item-price">$6</span></div><p class="item-desc">Fresh strawberry smoothie.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Peach</h3><span class="item-price">$6</span></div><p class="item-desc">Sweet and velvety peach smoothie.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Mango</h3><span class="item-price">$6</span></div><p class="item-desc">Tropical mango smoothie.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Passion Fruit</h3><span class="item-price">$6</span></div><p class="item-desc">Exotic and tangy passion fruit blend.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Forest Fruit</h3><span class="item-price">$7.5</span></div><p class="item-desc">Mixed wild berry smoothie.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Raspberry</h3><span class="item-price">$7.5</span></div><p class="item-desc">Bright, tangy raspberry smoothie.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Blueberry</h3><span class="item-price">$7.5</span></div><p class="item-desc">Antioxidant-rich blueberry blend.</p></article>
@@ -700,25 +706,45 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
       </div>
       <div class="items-grid">
         <article class="item-card"><div class="item-top"><h3 class="item-name">Water</h3><span class="item-price">$1</span></div><p class="item-desc">Still mineral water.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Sparkling Water</h3><span class="item-price">$3.5</span></div><p class="item-desc">Chilled sparkling water.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Soft Drinks</h3><span class="item-price">$3</span></div><p class="item-desc">Pepsi, 7UP, Mirinda and more.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Tea Lipton</h3><span class="item-price">$4.5</span></div><p class="item-desc">Chilled brewed tea over ice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Sparkling Water</h3><span class="item-price">$2.5</span></div><p class="item-desc">Chilled sparkling water.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Soft Drinks</h3><span class="item-price">$2</span></div><p class="item-desc">Pepsi, 7UP, Mirinda and more.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Tea Lipton</h3><span class="item-price">$3</span></div><p class="item-desc">Chilled brewed tea over ice.</p></article>
         <article class="item-card"><div class="item-top"><h3 class="item-name">Iced Tea 1883</h3><span class="item-price">$5.5</span></div><p class="item-desc">Refreshing brewed tea on ice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Lemonade</h3><span class="item-price">$5.5</span></div><p class="item-desc">Freshly squeezed lemon juice.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Minted Lemonade</h3><span class="item-price">$6</span></div><p class="item-desc">Lemonade with crushed fresh mint.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry Lemonade</h3><span class="item-price">$6</span></div><p class="item-desc">Lemonade blended with fresh strawberry.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Fresh Berries</h3><span class="item-price">$6</span></div><p class="item-desc">Mixed fresh berry cold drink.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Orange Juice</h3><span class="item-price">$5</span></div><p class="item-desc">Freshly squeezed orange juice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Lemonade</h3><span class="item-price">$4</span></div><p class="item-desc">Freshly squeezed lemon juice.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Minted Lemonade</h3><span class="item-price">$4.2</span></div><p class="item-desc">Lemonade with crushed fresh mint.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Strawberry Lemonade</h3><span class="item-price">$5</span></div><p class="item-desc">Lemonade blended with fresh strawberry.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Fresh Berries</h3><span class="item-price">$5</span></div><p class="item-desc">Mixed fresh berry cold drink.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Orange Juice</h3><span class="item-price">$4</span></div><p class="item-desc">Freshly squeezed orange juice.</p></article>
 
         <div class="grid-section-label">
           <span class="gsl-text">Beer</span>
           <span class="gsl-line"></span>
         </div>
 
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Almaza</h3><span class="item-price">$5.5</span></div><p class="item-desc">Lebanese pilsner lager.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Almaza Light</h3><span class="item-price">$6</span></div><p class="item-desc">Light Lebanese lager.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Almaza Rosé</h3><span class="item-price">$7</span></div><p class="item-desc">Lebanese rosé-style beer.</p></article>
-        <article class="item-card"><div class="item-top"><h3 class="item-name">Heineken</h3><span class="item-price">$7.5</span></div><p class="item-desc">Premium Dutch lager.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Almaza</h3><span class="item-price">$4</span></div><p class="item-desc">Lebanese pilsner lager.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Almaza Light</h3><span class="item-price">$4</span></div><p class="item-desc">Light Lebanese lager.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Almaza Rosé</h3><span class="item-price">$4</span></div><p class="item-desc">Lebanese rosé-style beer.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Heineken</h3><span class="item-price">$5</span></div><p class="item-desc">Premium Dutch lager.</p></article>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════
+         FOOD
+    ════════════════════════════════ -->
+    <section class="category" id="food" aria-labelledby="lbl-food">
+      <div class="cat-header">
+        <h2 class="cat-title" id="lbl-food">Food</h2>
+        <span class="cat-sub">Bites, sandwiches &amp; sweets</span>
+      </div>
+      <div class="items-grid">
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Kaake Cheese</h3><span class="item-price">$4</span></div><p class="item-desc">Kaake with cheese.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Kaake Cheese Turkey</h3><span class="item-price">$4</span></div><p class="item-desc">Kaake with cheese and turkey.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Kaake Zaatar</h3><span class="item-price">$3.5</span></div><p class="item-desc">Kaake with zaatar.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Turkey and Cheese Sandwich</h3><span class="item-price">$6</span></div><p class="item-desc">Turkey and cheese sandwich.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Haloumi Sandwich</h3><span class="item-price">$6</span></div><p class="item-desc">Haloumi sandwich.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Sourdough Salmon Cream Cheese</h3><span class="item-price">$7</span></div><p class="item-desc">Sourdough with salmon and cream cheese.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Custard</h3><span class="item-price">$4</span></div><p class="item-desc">Custard dessert.</p></article>
+        <article class="item-card"><div class="item-top"><h3 class="item-name">Mhalbiyi</h3><span class="item-price">$4</span></div><p class="item-desc">Traditional Lebanese milk pudding.</p></article>
       </div>
     </section>
 
